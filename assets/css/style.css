@@ -1,37 +1,40 @@
+/* color de la fuente */
 *{
     color: white;
 }
+
+/* color del background en negro */
 body{
     background-color: #000;
     
 }
 
-
-.btn,footer{
+/* color del background para los botones, tarjetas y footer */
+.btn,.card,footer{
     background-color: rgb(13, 202, 240);
 }
 
-.corrusel{
+/* que el carousel utilice el ancho total de la página, eliminando el padding */
+.carrusel{
     padding: 0;
 }
 
-.card{
-    background-color: rgb(13, 202, 240);
-}
-
+/* alineación de los titulos con etiqueta h2 */
 h2{
     text-align: center;
 }
 
-
+/* alineacion del boton en el formulario, utilizando su ID */
 #boton-enviar{
     text-align: center;
 }
 
+/* se eliminan los border de la etiqueta semántica footer */
 footer{
     border: 0;
 }
 
+/* altura del footer */
 .footer-height {
     height: 5vh;
 }
